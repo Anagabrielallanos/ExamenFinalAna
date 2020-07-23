@@ -1,4 +1,3 @@
-C:\Users\vaale\source\repos\FinalCalida\FinalCalida\obj\Debug\FinalCalida.csprojAssemblyReference.cache
 C:\Users\vaale\source\repos\FinalCalida\FinalCalida\obj\Debug\FinalCalida.csproj.CoreCompileInputs.cache
 C:\Users\vaale\source\repos\FinalCalida\FinalCalida\bin\FinalCalida.dll.config
 C:\Users\vaale\source\repos\FinalCalida\FinalCalida\bin\FinalCalida.dll

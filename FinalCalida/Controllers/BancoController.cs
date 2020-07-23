@@ -30,6 +30,7 @@ namespace FinalCalida.Controllers
         [HttpPost]
         public ActionResult Crear(Datos datos)
         {
+
             datosInter.Save(datos);
             return RedirectToAction("Index");
         }

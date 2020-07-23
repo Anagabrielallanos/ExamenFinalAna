@@ -26,6 +26,14 @@ namespace FinalCalida.Controllers
         public ActionResult Crear(GastoTarjeta gasto)
         {
 
+            datosInter.Validate(gasto, ModelState);
+
+            if (!datosInter.IsValid()) {
+                ViewBag.Cuenta = datosInter.Datos(gasto.DatosId);
+                return View("Crear", gasto);
+            }
+               
+
             gastoInterfaze.SaveGasto(gasto);
             return RedirectToActionPermanent("Index", "Banco");
         }

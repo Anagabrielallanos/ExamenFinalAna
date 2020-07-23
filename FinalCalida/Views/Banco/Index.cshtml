@@ -3,7 +3,7 @@
     ViewBag.Title = "Index";
 }
 
-<a class="btn btn-primary float-right" href="/Banco/Crear">Crear</a>
+<a id="registrar" class="btn btn-primary float-right" href="/Banco/Crear">Crear</a>
 <table id="IndexTabla" class="table">
     <thead>
         <tr>
@@ -38,7 +38,7 @@
                 }
             </td>
             <td>
-                <a href="/GastoTarj/Crear?IdCuenta=@item.IdDatos" class="btn btn-danger"> Agregar Gasto </a>
+                <a id="Crear" href="/GastoTarj/Crear?IdCuenta=@item.IdDatos" class="btn btn-danger"> Agregar Gasto </a>
             </td>
 
         </tr>

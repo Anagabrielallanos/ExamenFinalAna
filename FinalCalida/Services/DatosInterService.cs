@@ -6,12 +6,14 @@ using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
 using System.Web;
+using System.Web.Mvc;
 
 namespace FinalCalida.Services
 {
     public class DatosInterService : DatosInter
     {
         readonly SimuladorContext context;
+        private ModelStateDictionary modelState;
         public DatosInterService(SimuladorContext context)
         {
             this.context = context;
@@ -29,10 +31,24 @@ namespace FinalCalida.Services
             return listDATOS;
         }
 
+        public bool IsValid()
+        {
+            return modelState.IsValid;
+        }
+
         public void Save(Datos datos)
         {
             context.Datos.Add(datos);
             context.SaveChanges();
+        }
+
+        public void Validate(GastoTarjeta categoria, ModelStateDictionary modelState)
+        {
+            var crit = context.Datos;
+
+            this.modelState = modelState;
+            if (crit.Any(o => o.SadldoInicial < categoria.Monto))
+                modelState.AddModelError("Monto", "No cuenta con salfo suficiente");
         }
     }
 }
