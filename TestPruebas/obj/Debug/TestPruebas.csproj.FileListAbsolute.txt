@@ -1,0 +1,6 @@
+C:\Users\vaale\source\repos\FinalCalida\TestPruebas\bin\Debug\TestPruebas.dll
+C:\Users\vaale\source\repos\FinalCalida\TestPruebas\bin\Debug\TestPruebas.pdb
+C:\Users\vaale\source\repos\FinalCalida\TestPruebas\obj\Debug\TestPruebas.csprojAssemblyReference.cache
+C:\Users\vaale\source\repos\FinalCalida\TestPruebas\obj\Debug\TestPruebas.csproj.CoreCompileInputs.cache
+C:\Users\vaale\source\repos\FinalCalida\TestPruebas\obj\Debug\TestPruebas.dll
+C:\Users\vaale\source\repos\FinalCalida\TestPruebas\obj\Debug\TestPruebas.pdb

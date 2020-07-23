@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1082
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinalCalida", "FinalCalida\FinalCalida.csproj", "{F5C3512B-F5FF-4B59-A6E3-40E5DE1A474C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestPruebas", "TestPruebas\TestPruebas.csproj", "{253419B2-9F68-4FBE-959B-BF18896EF285}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F5C3512B-F5FF-4B59-A6E3-40E5DE1A474C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5C3512B-F5FF-4B59-A6E3-40E5DE1A474C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5C3512B-F5FF-4B59-A6E3-40E5DE1A474C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5C3512B-F5FF-4B59-A6E3-40E5DE1A474C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{253419B2-9F68-4FBE-959B-BF18896EF285}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{253419B2-9F68-4FBE-959B-BF18896EF285}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{253419B2-9F68-4FBE-959B-BF18896EF285}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{253419B2-9F68-4FBE-959B-BF18896EF285}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {069E6AED-961A-4DCB-AFAC-EAE2E920D54B}
+	EndGlobalSection
+EndGlobal

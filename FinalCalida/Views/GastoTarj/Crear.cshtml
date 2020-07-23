@@ -1,0 +1,41 @@
+﻿
+@{
+    ViewBag.Title = "Crear";
+}
+
+<h2>Crear Gasto </h2>
+
+<form action="/GastoTarj/Crear" method="post">
+
+    <div class="form-group">
+        <label>Monto</label>
+        <input type="text" class="form-control" name="Monto" placeholder="Monto">
+        @Html.ValidationMessage("Monto")
+    </div>
+
+    <div class="form-group">
+        <label>Fecha</label>
+        <input type="date" class="form-control" name="Fecha" placeholder="Fehca">
+        @Html.ValidationMessage("Fecha")
+    </div>
+
+    <div class="form-group">
+        <label>Descripcion</label>
+        <input type="text" class="form-control" name="Descripcion" placeholder="Descripcion">
+        @Html.ValidationMessage("Descripcion")
+    </div>
+
+    <div class="form-group">
+        <label>TARJETA EN LA QUE SE AGREGARA  EL GASTO </label>
+        <select name="DatosId" class="form-control">
+            @foreach (var d in ViewBag.Cuenta)
+            {
+                <option value="@d.IdDatos">@d.Nombre</option>
+            }
+        </select>
+    </div>
+
+    <button class="btn btn-primary">Guardar</button>
+
+</form>
+
